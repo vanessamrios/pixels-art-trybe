@@ -1,0 +1,29 @@
+#title {
+    color: grey
+}
+#color-palette {
+
+}
+.color {
+    border: black solid 1px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+
+#pink {
+    background-color: pink;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
