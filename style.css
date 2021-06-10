@@ -1,9 +1,9 @@
 #title {
     color: grey
 }
-#color-palette {
+/* #color-palette {
 
-}
+} */
 .color {
     border: black solid 1px;
     display: inline-block;
@@ -15,7 +15,7 @@
     background-color: black;
 }
 
-#yelllow {
+#yellow {
     background-color:yellow;
 }
 
