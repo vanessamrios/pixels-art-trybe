@@ -20,3 +20,17 @@ function addClassSelected (event){
     colorSelected.classList.remove("selected");
     event.target.classList.add("selected");
 }
+
+function createArt (){
+    let pixels = document.getElementsByClassName("pixel");
+    
+    
+    for(let pixel of pixels) {
+        pixel.addEventListener("click", changeColor);
+        function changeColor(event) {
+        let selected = document.getElementsByClassName("selected");
+        event.target.style.backgroundColor = selected[0].id;
+        }
+    }
+}
+createArt();
